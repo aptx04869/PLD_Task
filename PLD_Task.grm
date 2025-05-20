@@ -1,0 +1,78 @@
+!-------------- Parameter Set ///optional except for start symbol
+
+"Start Symbol" = <program>
+
+
+!-------------- Character Sets
+
+{WS} = {Whitespace} - {CR} -{LF}
+{string chars} = {Printable}
+
+
+!-------------- Terminals
+
+ID = [_]{letter}{Alphanumeric}*
+   
+Digit = ('+' | '-')? {digit}+ ('.' {digit}+)? (('e'| ('+' | '-') {digit})+ '^' ('+' | '-') {digit}+ ('.' {digit}+)? )? 
+!-------------- Rules //the actual grammer
+
+<program> ::= 'Start' <stmt_list> 'End'
+           
+<stmt_list> ::= <stmt>
+              |<stmt> <stmt_list>
+              
+<stmt> ::= <assign>
+           |<if_stmt> 
+           |<for_stmt> 
+
+<assign> ::= <id> '=' <expr>
+        
+<id> ::= ID
+      
+<expr> ::= <expr> '+' <term>
+        | <expr> '-' <term>
+        | <term>
+        
+<term> ::= <term> '*' <factor>
+        | <term> '/'<factor>
+        |<term>'%'<factor>
+        |<factor>
+        
+<factor> ::= <factor>'**'<exp>
+          | <exp>
+          
+<exp> ::= '('<expr>')'
+       |<id>
+       |<digit>
+       
+        
+<digit> ::= Digit
+         
+!------------- if stmt
+
+<if_stmt> ::= if <cond> ':' <stmt_list>
+           | if <cond> ':'  <stmt_list> else ':' <stmt_list>
+           
+<cond> ::= <expr> <op> <expr>
+
+<op> ::= '<' 
+      | '>'
+      | '==' 
+      | '!='
+      
+
+!--------------- for stmt
+<for_stmt> ::= for <id> in range '(' <expr> ',' <expr> ')' ':' <stmt_list>
+            | for <id> in range '(' <expr> ',' <expr> ',' <expr> ')' ':' <stmt_list>
+
+
+
+
+
+
+
+
+
+
+
+
