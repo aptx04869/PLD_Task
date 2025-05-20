@@ -1,0 +1,13 @@
+C:\Users\somay\OS\PLD_Task_O\PLD_Task_O\bin\Debug\PLD_Task_O.exe.config
+C:\Users\somay\OS\PLD_Task_O\PLD_Task_O\bin\Debug\PLD_Task_O.exe
+C:\Users\somay\OS\PLD_Task_O\PLD_Task_O\bin\Debug\PLD_Task_O.pdb
+C:\Users\somay\OS\PLD_Task_O\PLD_Task_O\obj\Debug\PLD_Task_O.csproj.AssemblyReference.cache
+C:\Users\somay\OS\PLD_Task_O\PLD_Task_O\obj\Debug\PLD_Task_O.Form1.resources
+C:\Users\somay\OS\PLD_Task_O\PLD_Task_O\obj\Debug\PLD_Task_O.Properties.Resources.resources
+C:\Users\somay\OS\PLD_Task_O\PLD_Task_O\obj\Debug\PLD_Task_O.csproj.GenerateResource.cache
+C:\Users\somay\OS\PLD_Task_O\PLD_Task_O\obj\Debug\PLD_Task_O.csproj.CoreCompileInputs.cache
+C:\Users\somay\OS\PLD_Task_O\PLD_Task_O\obj\Debug\PLD_Task_O.exe
+C:\Users\somay\OS\PLD_Task_O\PLD_Task_O\obj\Debug\PLD_Task_O.pdb
+C:\Users\somay\OS\PLD_Task_O\PLD_Task_O\bin\Debug\CalithaLib.dll
+C:\Users\somay\OS\PLD_Task_O\PLD_Task_O\bin\Debug\GoldParserEngine.dll
+C:\Users\somay\OS\PLD_Task_O\PLD_Task_O\obj\Debug\PLD_Task_O.csproj.CopyComplete
